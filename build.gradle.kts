@@ -36,14 +36,14 @@ dependencies {
     mappings("net.fabricmc:yarn:${project.property("yarn_mappings")}:v2")
     modImplementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
     modImplementation("net.fabricmc:fabric-language-kotlin:${project.property("kotlin_loader_version")}")
-    modImplementation("com.cobblemon:fabric:1.6.1+1.21.1")
+    modImplementation("com.cobblemon:fabric:1.7.0+1.21.1")
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.0") // No me lo creo - Cant fucking belive it
     modImplementation(include("eu.pb4","polymer-core","0.9.17+1.21.1"))
     modImplementation (include("eu.pb4","polymer-blocks","0.9.17+1.21.1"))
     modImplementation(include("eu.pb4","polymer-resource-pack","0.9.17+1.21.1"))
     modImplementation(include("eu.pb4","polymer-virtual-entity","0.9.17+1.21.1"))
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.107.0+1.21.1")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.116.7+1.21.1")
 }
 
 tasks.processResources {
